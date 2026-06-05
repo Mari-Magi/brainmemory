@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Implementation plan for adding a weekly focus time tracking and visualization feature (localStorage persistence, custom WeeklyChart component, and integration into App.jsx).",
+  "updatedAt": "2026-06-05T03:06:29.116603400Z",
+  "requestFeedback": true
+}

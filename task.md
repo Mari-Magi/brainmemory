@@ -1,0 +1,25 @@
+# 작업 체크리스트 (Task List)
+
+- [x] **프로젝트 초기화 및 기본 환경 세팅**
+  - [x] React + Vite 프로젝트 생성 (`npx create-vite ./ --template react`)
+  - [x] Tailwind CSS v3 설치 및 구성 (`npm install -D tailwindcss@3 postcss autoprefixer`)
+  - [x] `tailwind.config.js` 및 `postcss.config.js` 작성
+  - [x] 구글 폰트(Fredoka, Inter) 연동 및 `index.html` 정리
+- [x] **글로벌 스타일 및 애니메이션 설정**
+  - [x] `src/index.css` 작성 (테마 변수, Zzz 및 햄스터 모션 커스텀 키프레임 정의)
+- [x] **UI 컴포넌트 개발**
+  - [x] `Mascot.jsx` 개발 (SVG 기반 햄스터 캐릭터 애니메이션 - 대기/집중/휴식 상태)
+  - [x] `TimerDisplay.jsx` 개발 (원형 프로그레스 바 및 둥근 타이머 폰트)
+  - [x] `Controls.jsx` 개발 (시작/정지/리셋 버튼, 홉/바운스 트랜지션)
+  - [x] `Quotes.jsx` 개발 (코다리 부장의 말풍선 격려 메시지)
+  - [x] `App.jsx` 통합 개발 (시간 조절 설정 기능, 뽀모도로 타이머 상태 관리, 알림 사운드/TTS 기능)
+- [x] **테스트 및 검증**
+  - [x] Vitest 및 React Testing Library 설치
+  - [x] 타이머 감소 및 전환 로직 단위 테스트 작성 (`src/components/__tests__/Timer.test.jsx`)
+  - [x] 테스트 실행 및 검증
+  - [x] 브라우저 반응형 및 기능 동작성 최종 수동 테스트
+- [/] **주간 집중 시간 시각화 기능 개발**
+  - [/] `WeeklyChart.jsx` 차트 컴포넌트 구현
+  - [ ] `App.jsx` 요일별 집중 시간 데이터 관리 및 localStorage 연동
+  - [ ] `WeeklyChart.test.jsx` 단위 테스트 작성
+  - [ ] 최종 검증 및 동작 확인
